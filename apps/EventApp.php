@@ -1,9 +1,12 @@
 <?php
 
+namespace test20240508\apps;
+
 use test20240508\modules\interfaces\QueueInterface;
 
 class EventApp
 {
+    //@todo Move to config file
     private const QUEUE_COUNT = 10;
 
     private QueueInterface $queue;
