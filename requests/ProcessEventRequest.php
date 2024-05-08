@@ -4,7 +4,7 @@ namespace test20240508\requests;
 
 class ProcessEventRequest
 {
-    public int $id;
+    public int $userId;
     public array $payload;
 
     public function __construct($request)
